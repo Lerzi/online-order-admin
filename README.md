@@ -22,7 +22,7 @@ pnpm build
 
 # TODO LIST
 
-- [ ] 安装一个UI组件库
+- [x] 安装[NaiveUI组件库](https://www.naiveui.com/zh-CN/light/components/button)
 - [ ] 安装自动引入组件
 - [ ] 安装自动引入
 - [ ] 安装axios
