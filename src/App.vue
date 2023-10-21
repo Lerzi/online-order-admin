@@ -1,11 +1,13 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import { NButton } from 'naive-ui'
+// import { NButton } from 'naive-ui'
 </script>
 
 <template>
   <RouterView />
-  <NButton>我是一个按钮</NButton>
+  <n-card title="卡片">
+    卡片内容
+  </n-card>
 </template>
 
 <style scoped></style>

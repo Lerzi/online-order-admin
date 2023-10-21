@@ -15,6 +15,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
     "naive-ui": "^2.35.0",
+    "unplugin-vue-components": "^0.25.2",
     "vfonts": "^0.0.3",
     "vite": "^4.4.9"
   }
