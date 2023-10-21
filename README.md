@@ -24,7 +24,7 @@ pnpm build
 
 - [x] 安装[NaiveUI组件库](https://www.naiveui.com/zh-CN/light/components/button)
 - [x] 安装自动引入组件[unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
-- [ ] 安装自动引入
+- [x] 安装自动引入依赖[unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
 - [ ] 安装axios
 - [ ] 封装API请求
 - [ ] 写一个登录页

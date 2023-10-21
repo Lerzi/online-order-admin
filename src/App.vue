@@ -1,13 +1,12 @@
 <script setup>
-import { RouterView } from 'vue-router'
-// import { NButton } from 'naive-ui'
+
+
+const count = ref(1)
 </script>
 
 <template>
   <RouterView />
-  <n-card title="卡片">
-    卡片内容
-  </n-card>
+  <n-button @click="count++">{{ count }}</n-button>
 </template>
 
 <style scoped></style>
