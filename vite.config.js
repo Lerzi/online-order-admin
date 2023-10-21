@@ -43,12 +43,6 @@ export default defineConfig({
           //   ['default', 'axios'], // import { default as axios } from 'axios',
           // ],
         },
-        // example type import
-        {
-          from: 'vue-router',
-          imports: ['RouteLocationRaw'],
-          type: true,
-        },
       ],
       dirs: ['./composables/**'],
       dts: './src/auto-imports.d.ts',
