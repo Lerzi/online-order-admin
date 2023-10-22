@@ -38,10 +38,10 @@ export default defineConfig({
           //   // alias
           //   ['useFetch', 'useMyFetch'], // import { useFetch as useMyFetch } from '@vueuse/core',
           // ],
-          // axios: [
-          //   // default imports
-          //   ['default', 'axios'], // import { default as axios } from 'axios',
-          // ],
+          axios: [
+            // default imports
+            ['default', 'axios'], // import { default as axios } from 'axios',
+          ],
         },
       ],
       dirs: ['./composables/**'],
