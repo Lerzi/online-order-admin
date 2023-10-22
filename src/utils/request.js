@@ -28,7 +28,7 @@ instance.interceptors.response.use(
     // 超出 2xx 范围的状态码都会触发该函数。
     // 对响应错误做点什么
     console.error('请求错误 :>> ', error);
-    alert('请求错误' + error);
+    window.$message.error(error.message);
     return Promise.reject(error);
   }
 );
