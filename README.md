@@ -26,5 +26,5 @@ pnpm build
 - [x] 安装自动引入组件[unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
 - [x] 安装自动引入依赖[unplugin-auto-import](https://github.com/unplugin/unplugin-auto-import)
 - [x] 安装网络请求库[axios](https://www.axios-http.cn/docs/intro)
-- [ ] 封装API请求
+- [x] 封装API请求
 - [ ] 写一个登录页
