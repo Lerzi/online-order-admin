@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unocss/reset": "^0.57.0",
     "axios": "^1.5.1",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.4",
     "naive-ui": "^2.35.0",
+    "unocss": "^0.57.0",
     "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.2",
     "vfonts": "^0.0.3",

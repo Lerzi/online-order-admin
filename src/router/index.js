@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'about',
       component: () => import('@/views/AboutView.vue'),
     },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('@/views/login.vue'),
+    },
     // 将匹配所有内容并将其放在 `$route.params.pathMatch` 下
     {
       path: '/:pathMatch(.*)*',

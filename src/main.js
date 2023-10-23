@@ -1,8 +1,10 @@
-import './assets/main.css';
 // 通用字体
 import 'vfonts/Lato.css';
 // 等宽字体
 import 'vfonts/FiraCode.css';
+
+import 'virtual:uno.css';
+import '@unocss/reset/tailwind.css';
 
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';

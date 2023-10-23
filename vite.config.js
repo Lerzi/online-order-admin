@@ -8,6 +8,8 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers';
 
 import AutoImport from 'unplugin-auto-import/vite';
 
+import UnoCSS from 'unocss/vite';
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -48,6 +50,7 @@ export default defineConfig({
       dts: './src/auto-imports.d.ts',
       vueTemplate: false,
     }),
+    UnoCSS(),
   ],
   resolve: {
     alias: {
