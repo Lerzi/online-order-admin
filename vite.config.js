@@ -16,7 +16,10 @@ export default defineConfig({
     vue(),
     Components({
       resolvers: [NaiveUiResolver()],
-      dirs: ['src/components'],
+      extensions: ['vue', 'md'],
+      include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
+      dts: 'src/components.d.ts',
+      // dirs: ['src/components'],
     }),
     AutoImport({
       // targets to transform
