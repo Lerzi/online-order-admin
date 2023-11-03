@@ -1,5 +1,5 @@
 <script setup>
-
+import { apiLogin } from '@/api/login'
 const formValue = ref({
   username: '',
   password: ''
@@ -21,7 +21,7 @@ const formRef = ref()
 function login() {
   formRef.value?.validate((errors) => {
     if (!errors) {
-      window.$message.success("Valid");
+      apiLogin(formValue.value)
     } else {
       console.log(errors);
       window.$message.error("Invalid");
