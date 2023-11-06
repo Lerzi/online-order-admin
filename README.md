@@ -30,3 +30,7 @@ pnpm build
 - [x] 添加404页面 [vue-router](https://router.vuejs.org/zh/introduction.html)
 - [x] 添加[unocss](https://unocss.dev/integrations/vite) + [tailwindcss](https://www.tailwindcss.cn/docs/text-color)
 - [x] 写一个登录页
+- [x] 修改主题配色
+- [ ] 完善登录页样式
+- [ ] 搭建后端框架
+
