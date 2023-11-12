@@ -31,6 +31,7 @@ pnpm build
 - [x] 添加[unocss](https://unocss.dev/integrations/vite) + [tailwindcss](https://www.tailwindcss.cn/docs/text-color)
 - [x] 写一个登录页
 - [x] 修改主题配色
-- [ ] 完善登录页样式
+- [x] 完善登录页样式
+- [x] 全局图标[icones](https://icones.js.org/) 
 - [ ] 搭建后端框架
 
