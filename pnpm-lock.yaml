@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify/json': ^2.2.140
+  '@unocss/preset-icons': ^0.57.3
   '@unocss/reset': ^0.57.0
   '@vitejs/plugin-vue': ^4.3.4
   axios: ^1.5.1
@@ -22,6 +24,8 @@ dependencies:
   vue-router: registry.npmmirror.com/vue-router/4.2.5_vue@3.3.4
 
 devDependencies:
+  '@iconify/json': registry.npmmirror.com/@iconify/json/2.2.140
+  '@unocss/preset-icons': registry.npmmirror.com/@unocss/preset-icons/0.57.3
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/4.4.0_vite@4.5.0+vue@3.3.4
   naive-ui: registry.npmmirror.com/naive-ui/2.35.0_vue@3.3.4
   unocss: registry.npmmirror.com/unocss/0.57.0_vite@4.5.0
@@ -367,6 +371,15 @@ packages:
     dev: true
     optional: true
 
+  registry.npmmirror.com/@iconify/json/2.2.140:
+    resolution: {integrity: sha512-pEDLyUe39vZy15C0LT3UrnTzAWq1xkZ+F8+u9XfcHzqC7W9IwsocVMzWBGtXUn+pCmLpksfwHlzVycbbz7eMvw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/json/-/json-2.2.140.tgz}
+    name: '@iconify/json'
+    version: 2.2.140
+    dependencies:
+      '@iconify/types': registry.npmmirror.com/@iconify/types/2.0.0
+      pathe: registry.npmmirror.com/pathe/1.1.1
+    dev: true
+
   registry.npmmirror.com/@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/types/-/types-2.0.0.tgz}
     name: '@iconify/types'
@@ -567,6 +580,12 @@ packages:
     version: 0.57.0
     dev: true
 
+  registry.npmmirror.com/@unocss/core/0.57.3:
+    resolution: {integrity: sha512-o6snDo5vwAenIqA+wjjI6BUsftJXXSqrPHYqplb+QX5bLfxW/OU1xhBRlnhiP0BOGGZXqgGEETU1ym8MM9bLwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/core/-/core-0.57.3.tgz}
+    name: '@unocss/core'
+    version: 0.57.3
+    dev: true
+
   registry.npmmirror.com/@unocss/extractor-arbitrary-variants/0.57.0:
     resolution: {integrity: sha512-nWuC6dAkyeaGmw6C73uS6f6Y97ZrOanhVE0kEB0RZdnJlNoSSPZr+g11RBkR4Ccnh7wun5a+oP/TcKGS7YYVVA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/extractor-arbitrary-variants/-/extractor-arbitrary-variants-0.57.0.tgz}
     name: '@unocss/extractor-arbitrary-variants'
@@ -615,6 +634,18 @@ packages:
     dependencies:
       '@iconify/utils': registry.npmmirror.com/@iconify/utils/2.1.11
       '@unocss/core': registry.npmmirror.com/@unocss/core/0.57.0
+      ofetch: registry.npmmirror.com/ofetch/1.3.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  registry.npmmirror.com/@unocss/preset-icons/0.57.3:
+    resolution: {integrity: sha512-cG7gaFQzSidHS+nHPV9HEB3aaUVs/PjZywxMl5jwkJIWHuFMU/SQZXMorH6avU2jH8PoYkRZfjLdRWA+h/+fPA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/preset-icons/-/preset-icons-0.57.3.tgz}
+    name: '@unocss/preset-icons'
+    version: 0.57.3
+    dependencies:
+      '@iconify/utils': registry.npmmirror.com/@iconify/utils/2.1.11
+      '@unocss/core': registry.npmmirror.com/@unocss/core/0.57.3
       ofetch: registry.npmmirror.com/ofetch/1.3.3
     transitivePeerDependencies:
       - supports-color
@@ -688,7 +719,7 @@ packages:
     version: 0.57.0
     engines: {node: '>=14'}
     dependencies:
-      '@unocss/core': registry.npmmirror.com/@unocss/core/0.57.0
+      '@unocss/core': registry.npmmirror.com/@unocss/core/0.57.3
       magic-string: registry.npmmirror.com/magic-string/0.30.5
     dev: true
 

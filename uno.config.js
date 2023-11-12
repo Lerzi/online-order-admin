@@ -1,5 +1,6 @@
 // uno.config.ts
 import { defineConfig, presetAttributify, presetUno } from 'unocss';
+import presetIcons from '@unocss/preset-icons';
 
 export default defineConfig({
   presets: [
@@ -9,6 +10,7 @@ export default defineConfig({
     presetUno(),
     // presetWind(),
     // ...custom presets
+    presetIcons(),
   ],
   theme: {
     // ...
